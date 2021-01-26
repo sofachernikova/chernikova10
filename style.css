@@ -1,0 +1,165 @@
+.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 100px 50px 50px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.tytle {
+    font-size: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 0 10px 0;
+}
+.text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+}
+.two-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+}
+.stat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 0 30px 0;
+}
+.title-victory {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.bottom-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.bottom-line div {
+    margin: 0 20px 0 0;
+}
+.bottom-line div:last-child {
+    margin: 0;
+}
+.currentPlayer {
+    width: 120px;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#area {
+    width: 302px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    font-size: 0;
+    margin-bottom: 30px;
+}
+.btn-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#reset-btn {
+    width: 200px;
+    height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #004603;
+    margin: 0 20px 0 0;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    cursor: pointer;
+}
+#reset-btn span {
+    display: inline-block;
+    color: #ffffff;
+}
+#reset-btn:hover {
+    background-color: #00dd0b;
+}
+#retry-btn {
+    width: 200px;
+    height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #490000;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  
+  #retry-btn span {
+    display: inline-block;
+    color: #ffffff;
+  }
+  
+  #retry-btn:hover {
+    background-color: #ff0000;
+  }

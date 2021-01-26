@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Document</title>
+    <title>Chernikova10</title>
 </head>
 <body>
-    
-    <script src="app.js"></script>
+    <div class="content">
+		<div class="tytle">Крестики-нолики</div>
+		<div class="text">Простая игра в крестики-нолики. Победитель всегда ходит первым.</div>
+		<div class="two-line">
+			<div class="stat">
+				<div class="title-victory">Количество побед:</div>
+				<div class="bottom-line">
+					<div>Первый игрок: <span id="sX">0</span></div>
+					<div>Второй игрок: <span id="sO">0</span></div>
+				</div>
+			</div>
+			<div class="currentPlayer">
+				<span>Ход <span id="curPlyr">X</span></span>
+			</div>
+		</div>
+
+
+		<div id="area">
+
+		</div>
+
+		<div class="btn-block">
+			<div id="reset-btn">
+				<span>Новый раунд</span>
+			</div>
+			<div id="retry-btn">
+				<span>Сброс</span>
+			</div>
+		</div>
+
+	</div>
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
