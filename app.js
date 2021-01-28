@@ -39,7 +39,7 @@ function cellClick() {
     if (!this.innerHTML) {
         this.innerHTML = player;
     } else {
-        alert("Ячейка занята");
+        swal("Ячейка занята");
         return;
     }
 
@@ -51,7 +51,7 @@ function cellClick() {
 
     if (checkWin(data)) {
         stat[player] += 1;
-        restart("Выиграл: " + player);
+        swal("Выиграл: " + player);
     } else {
         var draw = true;
         for (var i in cell) {
@@ -59,7 +59,7 @@ function cellClick() {
         }
         if (draw) {
             stat.d += 1;
-            restart("Ничья");
+            swal("Ничья");
         }
     }
 
@@ -87,7 +87,7 @@ function checkWin(data) {
 
 function restart(text) {
 
-    alert(text);
+    swal(text);
     player = player == "x" ? "o" : "x";
     for (var i = 0; i < cell.length; i++) {
         cell[i].innerHTML = '';
